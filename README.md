@@ -57,25 +57,6 @@ The application follows these steps to provide responses to your questions:
 - **langchain_google_genai** : It is a package that provides an integration between LangChain and Google’s generative-ai SDK. It contains classes that extend the Embeddings class and provide methods for generating embeddings. The package can be used in a multipdf chatbot application to extract textual data from PDF documents and generate Accurate responses to user queries.
 
 ![Demo 4: Chatbot Output](img/CALMOutput.jpg)
----
-
-## ▶️Installation
-
-Clone the repository:
-
-`git clone https://github.com/GURPREETKAURJETHRA/Multi-PDFs_ChatApp_AI-Agent.git`
-
-Install the required Python packages:
-
-`pip install -r requirements.txt`
-
-Set up your Google API key from `https://makersuite.google.com/app/apikey` by creating a .env file in the root directory of the project with the following contents:
-
-`GOOGLE_API_KEY =<your-api-key-here>`
-
-Run the Streamlit app:
-
-`streamlit run app.py`
 
 ---
 ## 💡Usage
